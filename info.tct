@@ -1,3 +1,0 @@
-In tutorial        require('dotenv').load() GIVES A PROBLEM!!!
-USE FOLLOWING!!!!
-require('dotenv').config()

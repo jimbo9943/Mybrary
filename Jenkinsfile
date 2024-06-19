@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage("Build"){
       steps{
-        nodejs("Node"){
+        nodejs("NodeJs"){
           echo "Building application...."
           sh "npm install"
         }
